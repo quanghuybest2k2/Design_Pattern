@@ -1,0 +1,17 @@
+class Football : Game
+{
+    public override void Initialize()
+    {
+        Console.WriteLine("Trò chơi bóng đá đã được khởi tạo!");
+    }
+
+    public override void StartPlay()
+    {
+        Console.WriteLine("Bắt đầu trò chơi bóng đá!");
+    }
+
+    public override void EndPlay()
+    {
+        Console.WriteLine("Hoàn thành trò chơi bóng đá!");
+    }
+}
