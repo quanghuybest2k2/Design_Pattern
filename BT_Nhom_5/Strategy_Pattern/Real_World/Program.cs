@@ -21,8 +21,8 @@ namespace Real_World
             studentRecords.Add("Vivek");
             studentRecords.Add("Anna");
 
-            studentRecords.SetSortStrategy(new QuickSort());
-            studentRecords.Sort();
+            studentRecords.SetSortStrategy(new QuickSort());// chon
+            studentRecords.Sort();// sap xep
 
             studentRecords.SetSortStrategy(new ShellSort());
             studentRecords.Sort();

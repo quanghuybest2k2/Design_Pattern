@@ -14,7 +14,7 @@ namespace Real_World
     {
         public override void Sort(List<string> list)
         {
-            //list.ShellSort();  not-implemented
+            // list.ShellSort();  //not-implemented
             Console.WriteLine("ShellSorted list ");
         }
     }
