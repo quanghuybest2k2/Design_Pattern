@@ -8,6 +8,7 @@ Tăng tính rõ ràng và bảo mật:
 Giúp giới hạn quyền truy cập vào các thành phần bên trong, che giấu thông tin nhạy cảm.
 
 ## Code minh họa
+```csharp
 // Subsystem classes
 class Subsystem1
 {
@@ -54,12 +55,14 @@ class Client
         facade.Operation();
     }
 }
+```
 ## giải thích
 B1: Tách các thành phần thành một đối tượng
 B2: Tạo một lớp Facade cho các lớp con kế thừa, khởi tạo các lớp con trong contructor
 B3: Tạo một hàm Thực thi gọi các hàm của lớp con
 B4: Khởi tạo facade trong hàm main và gọi đến hàm Thực thi
 ## Ứng dụng thực tế trong thanh toán
+```csharp
 // Lớp CreditCardProcessor: Xử lý thanh toán bằng thẻ tín dụng
 public class CreditCardProcessor
 {
@@ -136,3 +139,4 @@ public class Program
         paymentFacade.ProcessBankTransfer(200.75m, "9876543210", "5678901234");
     }
 }
+```

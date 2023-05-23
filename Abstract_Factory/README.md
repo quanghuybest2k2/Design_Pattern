@@ -5,6 +5,7 @@ Nó cung cấp một giao diện chung để tạo ra các đối tượng mà k
 
 ## ví dụ
 
+```csharp
 using System;
 
 // Abstract Product
@@ -85,11 +86,11 @@ class Program
         Console.ReadKey();
     }
 }
-
+```
 ## ứng dụng thực tê
 
 Kết nối cơ sở dữ liêu
-
+```csharp
 using System;
 
 // Abstract Database Connection
@@ -202,3 +203,4 @@ class Program
         Console.ReadKey();
     }
 }
+```

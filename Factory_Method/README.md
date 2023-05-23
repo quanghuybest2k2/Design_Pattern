@@ -4,7 +4,7 @@ Factory Method được sử dụng để tạo đối tượng mà không cần
 Thay vào đó, Factory Method cung cấp một giao diện để tạo đối tượng, cho phép các lớp con [quyết định] lớp cụ thể nào sẽ được tạo.
 
 ## ví dụ
-
+```csharp
 using System;
 // lớp nền
 public abstract class Shape
@@ -72,13 +72,13 @@ public class Program
         Console.ReadLine();
     }
 }
-
+```
 ## Ứng dụng thực tế
 Game: Factory Method được sử dụng để tạo các đối tượng nhân vật, vũ khí, quái vật, hoặc các yếu tố khác trong trò chơi. 
 Factory Method cho phép mở rộng trò chơi bằng cách thêm các đối tượng mới mà không cần sửa đổi code.
 
 ## code
-
+```csharp
 using System;
 
 // Lớp trừu tượng đại diện cho nhân vật trong trò chơi
@@ -174,3 +174,4 @@ public class Program
         Console.ReadLine();
     }
 }
+```

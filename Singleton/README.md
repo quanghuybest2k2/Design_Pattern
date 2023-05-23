@@ -10,6 +10,8 @@ tượng khác có thể truy cập vào (instance) duy nhất của lớp đó.
 sẽ trả về (instance) đã tồn tại.
 
 ## Code minh họa
+
+```csharp
 public class Singleton {
     private static Singleton instance;
 
@@ -28,7 +30,7 @@ public class Singleton {
 }
 // static gọi thông qua class
 Singleton singleton = Singleton.getInstance();
-
+```
 ## giải thích
 B1: Tạo ra class Singleton, kiểm tra nếu chưa có (instance) thì khởi tạo Singleton, return về (instance) chính là Singleton
 B2: Gọi phương thức getInstance thông qua class Singleton
@@ -36,6 +38,7 @@ B2: Gọi phương thức getInstance thông qua class Singleton
 ## Singleton sử dụng trong thực tế
 Singleton sử dụng trong quản lý kết nối CSDL
 vd:
+```csharp
 using System.Data.SqlClient;
 
 public class DatabaseConnection
@@ -109,4 +112,4 @@ string insertQuery = "INSERT INTO Customers (CustomerID, CompanyName) VALUES ('A
 connection.ExecuteNonQuery(insertQuery);
 // đóng
 connection.CloseConnection();
-
+```

@@ -6,6 +6,7 @@ Nó cho phép các đối tượng làm việc cùng nhau mà không cần thay 
 
 ## Ví dụ
 
+```csharp
 public interface ITarget
 {
     void Request();
@@ -61,7 +62,7 @@ public static void Main()
     Client client = new Client(adapter);
     client.MakeRequest();
 }
-
+```
 ### Ứng dụng thực tế
 
 Kết nối cơ sở dữ liệu: Khi làm việc với các hệ quản trị cơ sở dữ liệu khác nhau như MySQL, Oracle, SQL Server, chúng ta có thể sử dụng Adapter pattern để tạo ra một interface chung để thao tác với cơ sở dữ liệu mà không cần thay đổi code trong các lớp đã tồn tại.

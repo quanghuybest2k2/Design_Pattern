@@ -6,6 +6,7 @@ Mô hình này giúp tăng hiệu suất và linh hoạt trong việc tạo đ�
 
 ##Code
 
+```csharp
 abstract class Prototype
 {
     public string Name { get; set; }
@@ -27,7 +28,7 @@ class ConcretePrototype : Prototype
         return new ConcretePrototype(Name);
     }
 }
-
+```
 ## Ứng dụng trong thực tế
 
 - Quản lý cache: Thay vì tạo mới đối tượng mỗi khi cần sử dụng, chúng ta có thể tạo ra một số đối tượng khởi đầu và lưu trữ chúng trong cache. 

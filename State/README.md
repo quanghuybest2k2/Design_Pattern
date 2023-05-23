@@ -2,7 +2,7 @@
 State cho phép một đối tượng thay đổi hành vi của nó khi trạng thái bên trong của nó thay đổi.
 Đối tượng sẽ xuất hiện để thay đổi lớp của nó
 ## ví dụ
-
+```csharp
 public class Lamp
 {
     private bool isOn;
@@ -51,6 +51,7 @@ public class Program
         lamp.DisplayState(); // Trạng thái: Tắt
     }
 }
+```
 
 ## Ứng dụng trong thực tế
 # Game:
