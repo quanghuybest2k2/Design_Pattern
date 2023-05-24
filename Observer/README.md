@@ -107,3 +107,6 @@ public class Program
 ## Observer áp dụng trong thực tế:
 vd1: Thông báo khi cổ phiếu tăng giá: thông báo đến các nhà đầu tư đã đăng ký khi cổ phiếu tăng giá
 vd2: Hệ thống nhắn tin và thông báo: Thông báo đế các observer(người dùng đăng ký) khi có tin nhắn mới
+
+## Sự khác biệt với observer và pubsub
+Ứng dụng facebook: "observer nhận tin nhắn của user với user còn pubsub là thông báo từ server đến user"
